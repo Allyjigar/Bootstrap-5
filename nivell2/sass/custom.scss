@@ -1,0 +1,49 @@
+
+$font-family-sans-serif: 'Karla', sans-serif;
+
+.serif {
+    font-family:'DM Serif Display', serif;
+};
+
+$primary: hsl(256, 26%, 20%) !default;
+$secondary: hsl(216, 30%, 68%) !default;
+$success: hsl(270, 9%, 17%) !default;
+$info: hsl(273, 4%, 51%) !default;
+$warning: hsl(0, 0%, 98%) !default;
+$danger: #fff;
+
+
+.deco1{
+    background-image: url('../images/bg-pattern-intro-rigth-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+.deco2{
+    background-image: url('../images/bg-pattern-intro-left-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: -20% top;
+}
+.deco3{
+    background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+.deco4{
+    background-image: url('../images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+@media (min-width: 570px){
+    .foto{
+        margin-bottom: -8rem;
+    }
+    .mt-5{
+        margin-top: 8rem;
+    }
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
